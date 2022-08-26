@@ -1,0 +1,17 @@
+// TO READ STRING AND PRINT COUNT OF UPPERCASE CHARACTER IN GIVEN STRING
+#include<stdio.h>
+void main()
+{
+	char str[10];
+	gets(str);
+	int i,count=0;   //aDITya  ---> 3
+	for(i=0;str[i]!='\0';i++)// 123y5
+	{
+		if(isupper(str[i])) // a  D---> true
+		{
+			count=count+1;//1 2  3
+		}
+
+	}
+	printf("%d",count);
+}
